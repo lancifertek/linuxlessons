@@ -1,0 +1,30 @@
+Lesson One: Basics of user/superuser, filesystem, bash shell
+Filesystem ending at home directory
+	Case sensitivity and escaping characters (space, /, etc)
+	Everything is a file
+	
+Terminal/Bash
+ Opening shell, advantages of command-line vs gui
+	 Quick, precise, batch/bulk, scripts, etc.
+ Case sensitivity and escaping characters (space, /, etc) redux
+	output to file (>,>>)
+ Help when you need it (man pages)
+ 
+ Who, what, where
+Who		whoami, who (-a), w
+
+What		software: uname (-n, -v, -r, -a), lsb_relase -a, hostnamectl
+		hardware: #lshw (-short -html [html output]), lscpu, lsubs, lsblk (-a), lspci (-t [tree], -v
+
+Where	pwd, ls, cd, /, ~
+	Navigation: pwd ls cd mkdir rmdir 
+
+Working with files: cat head tails file display grep wc 
+	git clone learning material - Directories, text files, image files, small movie and mp3 files (find royalty free ones)
+
+I'm in! (reading the files)
+Text	cat, head, tail, more, less, piping commands
+	Identifing files file (-z [compression check], -f filename [list of files]
+Images	display
+Video	
+Audio	
